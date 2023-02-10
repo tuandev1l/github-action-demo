@@ -1,7 +1,11 @@
+# Name of workflow
 name: Events Demo 1
+# Trigger when
+# workflow_dispatch means you trigger that
 on: workflow_dispatch
 jobs:
   deploy:
+  # 	Defined the runner
     runs-on: ubuntu-latest
     steps:
     - name: Say hello
