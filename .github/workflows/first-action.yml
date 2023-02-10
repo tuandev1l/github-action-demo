@@ -1,0 +1,12 @@
+name: Events Demo 1
+on: workflow_dispatch
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Say hello
+      run: echo "Hello World!"
+    - name: Write in two lines
+      run: |
+        echo "Write two lines like this"
+        echo "Or like this"
